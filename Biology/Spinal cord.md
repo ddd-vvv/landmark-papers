@@ -1,0 +1,1 @@
+* The spinal cord is a long, thin, tubular structure made up of [[Nervous tissue | nervous tissue]] that extends from the [[Medulla oblongata | medulla oblongata]] in the lower [[Brainsterm | brainsterm]] of the [[Lumbar | lumbr]] region of the [[Vertebral colum | vertebral column]] (backbone) of [[Vertebrate | vertebrate]] animals.
