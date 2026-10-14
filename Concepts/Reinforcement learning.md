@@ -1,0 +1,2 @@
+* How an intelligent agent should take actions in a dynamic enviroment in order to maximize a reward signal.
+* One of the three basic machine learning paradigms, alongside supervised learning and unsupervised learning.
