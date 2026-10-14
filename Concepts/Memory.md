@@ -1,0 +1,1 @@
+* The faculty of the mind by which data or information is encoded, stored, and retrieved when needed. 
