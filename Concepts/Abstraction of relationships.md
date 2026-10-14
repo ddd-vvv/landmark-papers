@@ -1,0 +1,1 @@
+* Conceptual link that connects two elements or ideas by stripping away specific details to focus on their core, shared structure.
