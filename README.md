@@ -12,7 +12,7 @@ The reading list in [`Papers/Landmark papers in Machine Learning, Deep Learning 
 |---|---|
 | `Papers/` | Paper notes, grouped by theme (e.g. `Classical Machine Learning Foundations/`) |
 | `Biology/` | Neuroscience and cell biology concepts |
-| `Mathematics/` | Math notes, incl. *Introduction to Algebra* |
+| `Mathematics/` | Math notes |
 | `Computer Science/`, `Electronics/` | CS and hardware concepts |
 | `Concepts/` | Cross-cutting ideas (memory, reward, reinforcement learning…) |
 | `Philosophy/`, `Physics/` | Supporting topics |
