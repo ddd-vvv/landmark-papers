@@ -1,0 +1,4 @@
+* The brain is an [[organ]] that serves as the center of the [[Nervous System | nervous system]] in all vertebrate and most invertebrate animasl.
+* It consist of [[Nervous tissue | nervous tissue]].
+* Is typically located in the [[head]], usually near organs for [[Special senses | special senses]] such as [[Vision | vision]], [[Hearing | hearing]], and [[Olfaction | olfaction]].
+* Is the most specialized organ, it is responsible for receiving [[Information | information]] from the [[Sensory nervous system | sensory nervous system]], processing that information and the coordination of [[Motor control | motor control]] ([[Muscle | muscle]] activity) and the [[Endocrine system | endocrine system]].
