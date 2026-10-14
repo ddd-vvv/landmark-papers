@@ -5,39 +5,39 @@
 * The bulletin of mathematical biophysics, Volume 5, pages 115-133 (1943)
 # Content
 ## Introduction
-* The nervous system is a net of neurons.
+* The [[Nervous System|nervous system]] is a net of [[Neuron|neurons]].
 * Each [[Neuron | neuron]] have a [[Soma | soma]] and an [[Axon | axon]].
 * [[Synapses]] occur between the axon of one and the soma of another.
-* Each neuron has a threshold, which when the excitation exceeds it, the neuron initiates and impulse.
-	* The threshold is determined by the neuron.
-	* The impulse is propagated to all parts of the neuron.
-* The velocity on the axon varies directly with its dyameter :
-	* $< 1 ms^{-1}$ in thin axons (usually short).
-	* $> 150 ms^{-1}$ in thick axons (usually long).
+* Each [[Neuron|neuron]] has a threshold, which when the excitation exceeds it, the [[Neuron|neuron]] initiates and impulse.
+	* The threshold is determined by the [[Neuron|neuron]].
+	* The impulse is propagated to all parts of the [[Neuron|neuron]].
+* The velocity on the axon varies directly with its [[Dyameter|dyameter]] :
+	* $< 1 ms^{-1}$ in thin [[Axon|axons]] (usually short).
+	* $> 150 ms^{-1}$ in thick [[Axon|axons]] (usually long).
 * [[Latent addition]] lasts around $<0.25 ms$.
 * [[Synaptic delay]] $> 0.5 ms$ between receiving and sending impulses.
-* At the start of the impulse, the neuron is blocked to other stimulus.
-	* Then the neuron get back to its normal or subnormal activity ($subnormal \rightarrow_{\text{slowly}} normal$).
+* At the start of the impulse, the [[Neuron|neuron]] is blocked to other stimulus.
+	* Then the [[Neuron|neuron]] get back to its normal or subnormal activity ($subnormal \rightarrow_{\text{slowly}} normal$).
 	* Frequent activity augments this subnormality.
 *  The specificity depends solely upon their time and place ([[Theory of relativity]]); not on any other specificity of nervous energies.
 	* Only Inhibition could break this thesis.
-		* Inhibition is the prevention of the activity of neurons.
-		* Was previously explained by the supposition that previous activity of neurons of one group might raise the thresholds of a second group.
-		* Inhibitory synapse raises the threshold.
-* Neurons can be modeled in terms of propositions:
+		* Inhibition is the prevention of the activity of [[Neuron|neurons]].
+		* Was previously explained by the supposition that previous activity of [[Neuron|neurons]] of one group might raise the thresholds of a second group.
+		* Inhibitory [[Synapses|synapse]] raises the threshold.
+* [[Neuron|neurons]] can be modeled in terms of propositions:
 $$
 \Rightarrow \text{Network of Neurons} \Leftrightarrow \text{Propositions}
 $$
 * "All-or-none" law of nervous activity ([[Go big or go home]]).
 * Difficulties:
 	1) Facilitation and extinction: 
-		Antecedent activity temporarily alters responsiveness to subsequent stimulation of one and the same part of the net
+		Antecedent activity temporarily alters responsiveness to subsequent stimulation of one and the same part of the [[Neural Networks|net]]
 	2) Learning:
-		Networks can be altered, meaning that, stimulus which would previously have been inadequete are now adequate
+		[[Neural Networks|Networks]] can be altered, meaning that, stimulus which would previously have been inadequete are now adequate
 * Solution:
-	* Use equivalent netwroks with unaltered neurons
+	* Use equivalent [[Neural Networks|networks]] with unaltered [[Neuron|neurons]]
 * This is not a factual explanation - Per contra!:
-	* Facilitation and exctinction are dependant upon continous change in threshold related to electrical and chemical variables
+	* Facilitation and extinction are dependent upon continuous change in threshold related to electrical and chemical variables
 	* Learning is an enduring change that survives everything
 	* Alteration actually underlying facilitation, extinction and learning in no way affect the conclusions
 	* Nervous systems contains many circular paths, whose activity regenerates the excitation of any participant neuron that reference to time past becomes indefinite.
@@ -46,18 +46,18 @@ $$
 Assumptions:
 1) $\text{Neuron Activity} \leftrightarrow \text{"all-or-none" process}$
 2) Fixed number of synapses must be excited within the period of latent addition in order to excite a neuron at any time. That number is always independent.
-3) The only significant delay within the nervous systmen is the synaptic delay.
-4) Inhibition prevent the excitation of a neuron in a given time.
+3) The only significant delay within the [[Nervous System|nervous system]] is the [[Synaptic delay|synaptic delay]].
+4) Inhibition prevent the excitation of a [[Neuron|neuron]] in a given time.
 5) The structure of the net is invariant to time.
 ### Time and Delay Operator ($S$)
-* Time is handled in discrete steps representating "synaptic delays" ([[Discretization | discretization]]).
+* Time is handled in discrete steps representating "[[Synaptic delay|synaptic delays]]" ([[Discretization | discretization]]).
 * Function S("predecessor"): The property or event $P$ holds for a number when $P$ holds of its predecessor (i.e., at time $t-1$).
 $$
 S(P)(t)
 $$
 ### Cyclic Neworks
-* A net will be called *cyclic* if it contains a circle, i.e. if there exists a chain $c_i,c_{i+1}, \ldots, c_n$ of neurons on it, each member of the chain synapsing upon the next with the same beginning and end ([[Where i end you begin]]).
-* If a set of neurons is such that its removal from $\textrm{N}$ leaves without circles, and no smaller class of neurons has this property, the set is called a *cyclic set*, and its [[Cardinality | cardinality]] is of the order of $\textrm{N}$.
+* A net will be called *cyclic* if it contains a circle, i.e. if there exists a chain $c_i,c_{i+1}, \ldots, c_n$ of neurons on it, each member of the chain [[Synapses|synapse]] upon the next with the same beginning and end ([[Where i end you begin]]).
+* If a set of [[Neuron|neurons]] is such that its removal from $\textrm{N}$ leaves without circles, and no smaller class of [[Neuron|neurons]] has this property, the set is called a *cyclic set*, and its [[Cardinality | cardinality]] is of the order of $\textrm{N}$.
 ### Temporal Propositional Expression (TPE) and Temporal Propositional Function (TPF)
 1) A $p¹[z_1]$ is a TPE, where $p_1$ is a *predicate-variable*.
 	This establishes the simplest possible valid expression:
@@ -73,19 +73,19 @@ $$
 	 * $S_1. \sim S_2$ (Logical NOT): This is a negation. 
 3) Nothing else is a TPE.
 ### Theorem 1
-*Every net of order 0 can be solved in terms of temporal propositional expressions*.
-* Let $c_i$ be any neuron of $\textrm{N}$ with a threshold $\beta_i > 0$, and let $c_{i1},c_{i2},\ldots,c_{ip}$ have respectively $n_{i1},n_{i2},\ldots,n_{ip}$ excitatory synapses upon it.
-* Let $c_{j1},c_{j2},\ldots,c_{jq}$ have inhibitory synapses upon it.
-* Let $k_i$ be the set of the subclasses of ${n_{i1},n_{i2},\ldots,n_{ip}}$ such that the sum of their members exceeds $\theta_i$.
+*Every [[Neural Networks|net]] of order 0 can be solved in terms of temporal propositional expressions*.
+* Let $c_i$ be any [[Neuron|neuron]] of $\textrm{N}$ with a threshold $\beta_i > 0$, and let $c_{i1},c_{i2},\ldots,c_{ip}$ have respectively $n_{i1},n_{i2},\ldots,n_{ip}$ excitatory [[Synapses|synapses]] upon it.
+* Let $c_{j1},c_{j2},\ldots,c_{jq}$ have inhibitory [[Synapses|synapses]] upon it.
+* Let $k_i$ be the set of the sub classes of ${n_{i1},n_{i2},\ldots,n_{ip}}$ such that the sum of their members exceeds $\theta_i$.
 $$
 N_i(z_1) \equiv S \{ \prod_{m=1}^{q} \sim N_{jm}(z_1) . \sum_{\alpha \in \kappa_{i}} \prod_{s \in \alpha} N_{is}(z_1) \}
 \tag{1}
 $$
-- **$N_i(z_1)$:** The proposition asserting that neuron $c_i$ fires at time $z_1$.
+- **$N_i(z_1)$:** The proposition asserting that [[Neuron|neuron]] $c_i$ fires at time $z_1$.
 - **$\equiv$:** Logical equivalence ("if and only if").
 - **$S\{...\}$:** Indicates that everything inside the braces must have been true exactly one synaptic delay prior.
-- **The inhibitory barrier ($\prod_{m=1}^{q} \sim N_{jm}(z_1)$):** The $\prod$ symbol represents a logical conjunction (a multiple logical "AND"). The tilde $\sim$ represents negation ("NOT"). This part states that out of the $q$ inhibitory synapses connected to the neuron, _none_ must have fired. This reflects their physical assumption 4: the activity of an inhibitory synapse absolutely prevents the excitation of the neuron.
-- **The excitatory impulse ($\sum_{\alpha \in \kappa_i} \prod_{s \in \alpha} N_{is}(z_1)$):** The $\sum$ symbol represents a logical disjunction (a multiple logical "OR"). Each neuron has a threshold ($\theta_i$) that the excitation must exceed. $\kappa_i$ represents the set of the subclasses of excitatory synapses whose sum exceeds that threshold $\theta_i$. This formula dictates that at least one ($\sum$) of these winning combinations must occur (where a winning combination requires _all_ synapses in that particular group to fire, represented by the inner $\prod$).
+- **The inhibitory barrier ($\prod_{m=1}^{q} \sim N_{jm}(z_1)$):** The $\prod$ symbol represents a logical conjunction (a multiple logical "AND"). The tilde $\sim$ represents negation ("NOT"). This part states that out of the $q$ inhibitory synapses connected to the [[Neuron|neuron]], _none_ must have fired. This reflects their physical assumption 4: the activity of an inhibitory synapse absolutely prevents the excitation of the [[Neuron|neuron]].
+- **The excitatory impulse ($\sum_{\alpha \in \kappa_i} \prod_{s \in \alpha} N_{is}(z_1)$):** The $\sum$ symbol represents a logical dis junction (a multiple logical "OR"). Each neuron has a threshold ($\theta_i$) that the excitation must exceed. $\kappa_i$ represents the set of the sub classes of excitatory [[Synapses|synapse]] whose sum exceeds that threshold $\theta_i$. This formula dictates that at least one ($\sum$) of these winning combinations must occur (where a winning combination requires _all_ synapses in that particular group to fire, represented by the inner $\prod$).
 ### Theorem 2
 *Every TPE is realizable by  a net of order zero.*
 ### Theorem 3
@@ -99,13 +99,13 @@ $$
 ### Theorem 7
 *Alterable synapses can be replaced by circles.*
 ## The Theory: Nets with Circles
-* Unlike zero-order nets, networks with circlers are much more difficult to model mathematically.
+* Unlike zero-order [[Neural Networks|nets]], networks with circlers are much more difficult to model mathematically.
 * Activity can reverberate araoun a cricuit indefinitely, meaning a neuron's current state migh depend on inputs that happened an indefinite amount of time in the past.
 ### Theorem 8
-*The expression for neurons of the cyclic set of a net $\textrm{N}$ together with certain TPE expressing te actions of other neurons in terms of them, constitute a solution of $\textrm{N}.$*
+*The expression for [[Neuron|neurons]] of the cyclic set of a net $\textrm{N}$ together with certain TPE expressing te actions of other neurons in terms of them, constitute a solution of $\textrm{N}.$*
 
-Solution: A "cyclic set" of neurons ($c_1, \dots, c_p$) whose removal would eliminate all loops in the network.
-* Every other neuron outside this set can be expressed using standard Temporal Propositional Expressions (TPEs).
+Solution: A "cyclic set" of [[Neuron|neurons]] ($c_1, \dots, c_p$) whose removal would eliminate all loops in the network.
+* Every other [[Neuron|neuron]] outside this set can be expressed using standard Temporal Propositional Expressions (TPEs).
 * Synchronize the synaptic delays by finding their least common multiple ($n$).
 * Because the cyclic set of size $p$ can have $2^p$ possible truth-states, it can map the transitions between these states over time.
 ### Theorem 9
@@ -122,17 +122,17 @@ $$\begin{aligned} (Em)(En)(p)n(i)(\psi) :.\; & (x)m \; \psi(x)=0 \vee \psi(x)=1 
 	(2) if ${Pr}_1(z_1)$ of K, then $(z_2)z_1.{Pr}_1(z_2), ({Ez}_2)z_1.{Pr}_1(z_2),$ and $C{mn}(z_1).s$ belong to it, where $C_{mn}$ denotes the property of being congruent to $m$ modulo $n$, $m<n$
 	(3) The set K has no further members
 
-Provide a more practical tool for neurophysiologists and mathematicians, te authors offer a simplified rule.
-* Guarantees that you can physically build a network for any mathematical expresson that combines basics TPEs with standar periodic functions.
+Provide a more practical tool for neurophysiologists and mathematicians, the authors offer a simplified rule.
+* Guarantees that you can physically build a network for any mathematical expression that combines basics TPEs with standard periodic functions.
 * Specifically, this involves properties congruent to $m$ modulo $n$ ($C_{mn}$), effectively allowing the network to use simple timing loops as biological clocks.
 ### Biological Turing Machines
-* A nueronal net equipped with a tape, scanners, and efferents can compute exactly the same numbers as a [[Turing machine]].
-* This offers a profound phychological justification for Churchs's and Turing's definitions of computability: if a biological organism can compute a number, so can these theoretical machines.
+* A neuronal net equipped with a tape, scanners, and efferent can compute exactly the same numbers as a [[Turing machine]].
+* This offers a profound psychological justification for Churchs's and Turing's definitions of computability: if a biological organism can compute a number, so can these theoretical machines.
 ## Consequences
 * Causality in this theory is highly irreciprocal.
-* Specifying the current state of afferent stimulation and the activity of all neurons completly determines the succeding state.
+* Specifying the current state of afferent stimulation and the activity of all [[Neuron|neurons]] completely determines the succeeding state.
 * However, disjunctive relations (logical ORs) prevent the complete determination of the preceding state. 
-* Regenerative activity in cruclar networks makes refrence to past time indefinite as to time.
+* Regenerative activity in circular networks makes refrence to past time indefinite as to time.
 * Every idea and sensation is realized by network activity, but this activity never fully determines the actual afferents (the external inputs).
 * If the nervous net is altered (e.g., tinnitus, hallucinations, delusions), our reference to external facts becomes defective.
 * If our nets are undefined, our facts are undefined; determining the exact net removes the unknowability of the "thing in itself".
