@@ -1,0 +1,2 @@
+* Phenomenon associated with models for [[Dichotomous | dichotomous]] or categorical outcomes, including [[Logistic regression | logistic]] and [[Probit regressio | probit regression]].
+* Separation occurs if the predictor is associated with only one outcome value when the predictor range is split at a certain value.
