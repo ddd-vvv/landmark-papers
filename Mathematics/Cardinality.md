@@ -1,0 +1,2 @@
+* Inherent property of [[Sets | sets]], roughly meaning the number of individual [[Objects | objects]] they contain, which may be [[Infinite | infinite]].
+* The concept is understood through [[one-to-one correspondences]] between sets. That is, if their objects can be paired such that each object has a pair, and no object is paired more than once.
