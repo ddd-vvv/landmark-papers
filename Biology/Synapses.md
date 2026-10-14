@@ -1,0 +1,2 @@
+* Structure that allows a [[Neuron | neuron]] to exchange (receive or send) [[Signals | signals]] with another [[Cell | cell]] in its inmediate vicinity.
+* Can be clasified as either [[Chemical | chemical]] or [[Electrical | electrical]] depending on the mechanism of signal transmission between [[Neuron | neurons]].
