@@ -1,0 +1,1 @@
+* In [[Geometry | geometry]], is the common characteristic of all rays which coincide when translated to share a common endpoint.
