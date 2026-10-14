@@ -1,3 +1,4 @@
+# Content
 * Neurophysiological phenomenon where a nerve fiber exhibits a transient increase in excitability following a brief, subthreshold electrical stimulus.
 * How it works:
 	* Subthreshold Depolarization: The initial stimulus sligthly charges the nerve membrane, bringing it closer to its firing threshold.
