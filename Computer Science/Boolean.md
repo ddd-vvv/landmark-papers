@@ -1,0 +1,1 @@
+* Any kind of logic, function, expression, or theory based on the work of [[George Boole]] is considered Boolean.
