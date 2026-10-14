@@ -1,0 +1,2 @@
+* The soma or  [[Cell | cell]] body is the bulbous, non-process portion of a [[Neuron | neuron]] or [[Glial cell | glial cell]] that contains the [[Cell nucleus | cell nucleus]]
+* The part of the soma without the nucleus is called [[Perikaryon | perikayron]]
