@@ -1,0 +1,13 @@
+# Obsidian: per-device UI state and caches
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+.trash/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.directory
