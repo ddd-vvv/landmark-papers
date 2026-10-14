@@ -1,0 +1,1 @@
+* Decision making process where options or stimuli are evaluated by comparing them to each other rather than against a fixed, independent absolute standar.
