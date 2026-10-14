@@ -1,0 +1,10 @@
+# <type>(<scope>): <summary, imperative, <=50 chars, no period>
+#
+# Optional body: what was added/changed and why (wrap at 72).
+#
+# Types:  paper | note | concept | link | refactor | fix | chore | docs
+# Scope:  folder or paper, e.g. papers, biology, math, perceptron
+# Examples:
+#   paper(perceptron): add notes on Rosenblatt 1958
+#   note(biology): add Neuron and Axon
+#   link(papers): connect McCulloch-Pitts to Boolean algebra
