@@ -1,0 +1,2 @@
+* An axon is a long slender [[Projection | projection]] of a nerve [[Cell | cell]] or [[Neuron | neuron]] found in most [[Animals | animals]] that typically conducts eletrectrical impulses known as [[Action potentials | action potentials]] away from the [[Nerve cell body | nerve cell body]].
+* Its function is to transmit information to different neurons, muscles and glands.
