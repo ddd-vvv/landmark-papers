@@ -27,6 +27,7 @@ Link concepts with `[[wikilinks]]` (e.g. `[[Neuron | neuron]]`) so the graph con
 - [x] McCulloch & Pitts (1943), *A logical calculus of the ideas immanent in nervous activity*
 - [x] Rosenblatt (1958), *The Perceptron*
 - [x] Hubel & Wiesel (1959), *Receptive fields of single neurones in the cat's striate cortex*
+- [x] David E. Rumelhart, Geoffrey E. Hinton & Ronald J. Williams(1986), *Learning Representations by back-propagating errors* 
 - [ ] Remaining papers from the Gemini list
 
 ## Commit convention
