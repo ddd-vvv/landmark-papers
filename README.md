@@ -54,5 +54,3 @@ refactor(papers): group papers by theme
 fix(hubel-wiesel): correct publication year
 chore: ignore Obsidian workspace state
 ```
-
-Tips: commit one paper or topic at a time, and don't commit mid-edit while Obsidian is rewriting links (`alwaysUpdateLinks` is on, so renames touch other files). Enable the template with `git config commit.template .gitmessage`.
